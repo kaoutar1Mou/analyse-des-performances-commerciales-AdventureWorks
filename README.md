@@ -68,9 +68,7 @@ Le dashboard permet notamment d'analyser :
 
 ## 8 Rapport
 
-Le rapport détaillé du projet est disponible dans le fichier :
-
-`analyse-des-performances-commerciales-AdventureWorks.pdf`
+[Le rapport détaillé du projet est disponible ici](analyse-des-performances-commerciales-AdventureWorks.pdf)
 
 ## 9 Compétences mobilisées
 
