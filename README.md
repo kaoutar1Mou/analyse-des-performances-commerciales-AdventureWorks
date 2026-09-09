@@ -31,21 +31,21 @@ Le modèle combine les principes du **Star Schema** et du **Snowflake Schema**.
 La table de faits `AW_Sales` est reliée aux différentes dimensions utilisées
 pour l'analyse commerciale.
 
-## 📊 Dashboard
+## 5 Dashboard
 
 ### Executive Dashboard
 
-![Executive Dashboard](images/executive_dashboard.png)
+![Executive Dashboard](images/executive_dashboard.PNG)
 
 ### Geographic Dashboard
 
-![Geographic Dashboard](images/geographic_dashboard.png)
+![Geographic Dashboard](images/geographic_dashboard.PNG)
 
 ### Product Details
 
-![Product Details](images/product_details_dashboard.png)
+![Product Details](images/product_details_dashboard.PNG)
 
-## 📈 Principaux indicateurs
+## 6 Principaux indicateurs
 
 - Revenue
 - Profit
@@ -55,7 +55,7 @@ pour l'analyse commerciale.
 - Revenue Target
 - Order Target
 
-## 🔎 Analyse
+## 7 Analyse
 
 Le dashboard permet notamment d'analyser :
 
@@ -66,12 +66,12 @@ Le dashboard permet notamment d'analyser :
 - l'évolution du chiffre d'affaires ;
 - l'impact potentiel d'un ajustement des prix.
 
-## 📄 Rapport
+## 8 Rapport
 
 Le rapport détaillé du projet est disponible dans le fichier :
 
 `analyse-des-performances-commerciales-AdventureWorks.pdf`
 
-## 💡 Compétences mobilisées
+## 9 Compétences mobilisées
 
 Power BI · DAX · Power Query · Data Modeling · Data Visualization · Business Intelligence
