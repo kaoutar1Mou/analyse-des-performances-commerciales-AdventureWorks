@@ -1,37 +1,31 @@
-# analyse-des-performances-commerciales-AdventureWorks
-Analyse des performances commerciales avec Power BI à partir des données AdventureWorks. Création d’un dashboard interactif avec DAX et modélisation des données.
+# 📊 analyse-des-performances-commerciales-AdventureWorks
 
-## 1 Présentation du projet
 
-Ce projet consiste à développer un tableau de bord interactif sous Power BI
-afin d'analyser les performances commerciales de l'entreprise AdventureWorks.
+## 📌 Présentation du Projet
+Ce projet présente une solution de Business Intelligence développée sur Power BI Desktop pour analyser les ventes en ligne d'AdventureWorks. L'objectif est de transformer des données transactionnelles brutes en un tableau de bord interactif pour piloter la rentabilité commerciale.
 
-L'objectif est de transformer les données commerciales en indicateurs et
-visualisations permettant de suivre les ventes, les bénéfices, les commandes,
-les retours et les performances des produits et des territoires.
+* Technologies utilisées : Power BI Desktop, Power Query (ETL), Modélisation Hybride, Langage DAX.
+  
+## 🛠️ Compétences Techniques Appliquées
 
-## 2 Objectifs
+### 1. Préparation des Données (Power Query)
+* ETL & Nettoyage : Traitement des valeurs manquantes, suppression des doublons et standardisation des types.
 
-- Analyser les performances commerciales.
-- Suivre les principaux KPI.
-- Analyser les ventes par produit, catégorie, territoire et période.
-- Évaluer les retours produits.
-- Faciliter la prise de décision grâce à des visualisations interactives.
+### 2. Modélisation des Données (Data Modeling)
+* Architecture : Implémentation d'une Modélisation Hybride (Combinaison entre *Star Schema* et *Snowflake Schema*).
 
-## 3 Outils utilisés
+### 3. Calculs et Métriques (Langage DAX)
+* KPIs : Calculs  du Chiffre d'Affaires, des Profits, des Volumes et du taux de retour.
+* Time Intelligence : Analyse des tendances temporelles et de la saisonnalité des ventes.
 
-- Power BI
-- Power Query
-- DAX
-- Data Modeling
 
-## 4 Modélisation des données
+### 4. Restitution Visuelle & Restitution des Données (Data Visualization)
+* Interactivité : Configuration du filtrage croisé (Cross-filtering) entre les visuels et intégration d'une carte géographique dynamique.
+* Drill-Through : Configuration d'une page de détails pour l'analyse granulaire par produit.
 
-Le modèle combine les principes du **Star Schema** et du **Snowflake Schema**.
-La table de faits `AW_Sales` est reliée aux différentes dimensions utilisées
-pour l'analyse commerciale.
 
-## 5 Dashboard
+
+## 📊 Dashboard
 
 ### Executive Dashboard
 
@@ -45,31 +39,18 @@ pour l'analyse commerciale.
 
 ![Product Details](images/product_details_dashboard.PNG)
 
-## 6 Principaux indicateurs
 
-- Revenue
-- Profit
-- Orders
-- Returns
-- Return Rate
-- Revenue Target
-- Order Target
 
-## 7 Analyse
+## 🎯 Insights Clés & Conclusion
 
-Le dashboard permet notamment d'analyser :
+* Santé Financière : L'entreprise affiche une performance solide avec un chiffre d'affaires de \$18.5M et un profit de \$7.9M (Marge de 42.7%).
+* Dynamique des Ventes : Le volume de commandes est porté par la catégorie Accessories (17K), tandis que la valeur financière est dominée par les Bikes.
+* Alerte Qualité : Identification de pics d'anomalies avec un taux de retour élevé sur certains modèles, notamment le *Road-250 Red* (5.58%).
+* Analyse Géographique : Domination historique du marché en Amérique du Nord et fort potentiel de croissance identifié en Australie.
 
-- les performances globales ;
-- les produits les plus rentables ;
-- les commandes par catégorie ;
-- les performances géographiques ;
-- l'évolution du chiffre d'affaires ;
-- l'impact potentiel d'un ajustement des prix.
+---
 
-## 8 Rapport
+## 📄 Rapport
 
 [Le rapport détaillé du projet est disponible ici](analyse-des-performances-commerciales-AdventureWorks.pdf)
 
-## 9 Compétences mobilisées
-
-Power BI · DAX · Power Query · Data Modeling · Data Visualization · Business Intelligence
